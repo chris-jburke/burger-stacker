@@ -2,6 +2,20 @@
   text-align: center;
 }
 
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+.col-1 {
+  border: 1px black solid;
+  width: 30vw;
+  margin-right: 10vw;
+}
+.col-2 {
+  border: 1px black solid;
+  width: 30vw;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
