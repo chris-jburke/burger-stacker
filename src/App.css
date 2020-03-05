@@ -15,6 +15,18 @@
   border: 1px black solid;
   width: 30vw;
 }
+.clear-button {
+  position: absolute;
+  bottom: 0;
+}
+.burger {
+  transform: rotate(180deg);
+  position: absolute;
+  bottom: 0;
+}
+.burger > li {
+  transform: rotate(-180deg);
+}
 
 .App-logo {
   height: 40vmin;
